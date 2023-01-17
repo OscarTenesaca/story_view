@@ -120,9 +120,7 @@ class StoryVideoState extends State<StoryVideo> {
               width: 70,
               height: 70,
               child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(
-                    Color.fromRGBO(246, 192, 66, 1)),
-                color: Color.fromRGBO(246, 192, 66, 1),
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.amber),
                 strokeWidth: 3,
               ),
             ),
@@ -132,9 +130,7 @@ class StoryVideoState extends State<StoryVideo> {
               width: 70,
               height: 70,
               child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(
-                    Color.fromRGBO(246, 192, 66, 1)),
-                color: Color.fromRGBO(246, 192, 66, 1),
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.amber),
                 strokeWidth: 3,
               ),
             ),
